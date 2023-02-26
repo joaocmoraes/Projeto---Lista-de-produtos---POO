@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Heebo&family=Josefin+Sans&family=Lato:ital,wght@0,400;1,700&family=Lobster&family=PT+Sans&family=Poppins:wght@400;700&family=Press+Start+2P&family=Quicksand:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header{
+    background-color: blueviolet;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    padding: 30px 50px;
+
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+
+.line-input {
+    display: grid;
+    margin-bottom: 10px;
+
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+button:hover{
+    background-color: rgb(98, 36, 157);
+}
+
+.content {
+    margin-top: 15px;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th {
+    background-color: #efe7e7;
+}
+
+table th,td {
+    padding: 1px 5px;
+    text-align: left;
+}
+
+table td img {
+    width: 22px;
+}
+
+.center {
+    text-align: center;
+}
